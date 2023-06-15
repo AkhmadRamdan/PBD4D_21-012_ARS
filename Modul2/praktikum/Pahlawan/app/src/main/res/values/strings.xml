@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Pahlawan</string>
+    <string name="Judul">10 Nama Pahlawan dan Asalnya</string>
+    <string name="Text1">Salah satu cara mengapresiasi pengorbanan pahlawan Indonesia adalah dengan cara mengingat nama pahlawan nasional dan asalnya. Menurut Kamus Besar Bahasa Indonesia atau KBBI, pahlawan adalah orang yang menonjol karena keberanian dan pengorbanannya dalam membela kebenaran. </string>
+    <string name="Text2">Jasa pahlawan-pahlawan Indonesia memang tidak pernah tergantikan. Berkat mereka, negara kita berhasil menyatakan kemerdekaan pada tanggal 17 Agustus 1945. Berkat perjuangan dan kegigihan mereka memperjuangkan banyak hal, lahirlah Indonesia negara yang saat ini kita tinggali. Berikut daftar nama pahlawan dan asalnya:</string>
+    <string name="coll1">Gambar</string>
+    <string name="coll2">Nama</string>
+    <string name="coll3">Asal</string>
+
+    <string name="ro1nama">Ahmad Dahlan</string>
+    <string name="ro2nama">Ahmad Yani</string>
+    <string name="ro3nama">Sutomo</string>
+    <string name="ro4nama">Gatot Soebroto</string>
+    <string name="ro5nama">Ki Hadjar Dewantara</string>
+    <string name="ro6nama">Mohammad Hatta</string>
+    <string name="ro7nama">Soedirman</string>
+    <string name="ro8nama">Soekarno</string>
+    <string name="ro9nama">Soepomo</string>
+
+    <string name="ro1asal">Yogyakarta</string>
+    <string name="ro2asal">Purworejo</string>
+    <string name="ro3asal">Jawa Timur</string>
+    <string name="ro4asal">Banyumas</string>
+    <string name="ro5asal">Yogyakarta</string>
+    <string name="ro6asal">Minangkabau</string>
+    <string name="ro7asal">Purbalingga</string>
+    <string name="ro8asal">Surabaya</string>
+    <string name="ro9asal">Sukoharjo</string>
+
+
+</resources>

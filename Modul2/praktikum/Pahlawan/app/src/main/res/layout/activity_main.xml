@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:gravity="center"
+                    android:text="@string/Judul"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:justificationMode="inter_word"
+                    android:text="@string/Text1"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:justificationMode="inter_word"
+                    android:text="@string/Text2"
+                    android:textColor="@color/black" />
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="40dp"
+                    android:background="@color/white">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/green">
+
+                        <TextView
+                            android:id="@+id/coll1gambar"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="4"
+                            android:gravity="center"
+                            android:padding="10sp"
+                            android:text="@string/coll1"
+                            android:textColor="@color/white"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/coll1nama"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_weight="4"
+                            android:gravity="center"
+                            android:padding="10sp"
+                            android:text="@string/coll2"
+                            android:textColor="@color/white"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/coll1Asal"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_weight="4"
+                            android:gravity="center"
+                            android:padding="10sp"
+                            android:text="@string/coll3"
+                            android:textColor="@color/white"
+                            android:textSize="14sp" />
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+                        <ImageView
+                            android:id="@+id/row1gambar"
+                            android:layout_width="100dp"
+                            android:layout_height="70dp"
+                            app:srcCompat="@drawable/ahmad_dahlan" />
+
+                        <TextView
+                            android:id="@+id/row1nama"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="4"
+                            android:gravity="center"
+                            android:padding="10sp"
+                            android:text="@string/ro1nama"
+                            android:textColor="@color/black"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/row1asal"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="4"
+                            android:gravity="center"
+                            android:padding="10sp"
+                            android:text="@string/ro1asal"
+                            android:textColor="@color/black"
+                            android:textSize="12sp" />
+
+
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/row2gambar"
+                            android:layout_width="100dp"
+                            android:layout_height="70dp"
+                            app:srcCompat="@drawable/ahmad_yani" />
+
+                        <TextView
+                            android:id="@+id/row2nama"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="4"
+                            android:gravity="center"
+                            android:padding="10sp"
+                            android:text="@string/ro2nama"
+                            android:textColor="@color/black"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/row2asal"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="4"
+                            android:gravity="center"
+                            android:padding="10sp"
+                            android:text="@string/ro2asal"
+                            android:textColor="@color/black"
+                            android:textSize="12sp" />
+
+
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/row3gambar"
+                            android:layout_width="100dp"
+                            android:layout_height="70dp"
+                            app:srcCompat="@drawable/bung_tomo" />
+
+                        <TextView
+                            android:id="@+id/row3nama"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="4"
+                            android:gravity="center"
+                            android:padding="10sp"
+                            android:text="@string/ro3nama"
+                            android:textColor="@color/black"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/row3asal"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="4"
+                            android:gravity="center"
+                            android:padding="10sp"
+                            android:text="@string/ro3asal"
+                            android:textColor="@color/black"
+                            android:textSize="12sp" />
+
+
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/row4gambar"
+                            android:layout_width="100dp"
+                            android:layout_height="70dp"
+                            app:srcCompat="@drawable/gatot_subroto" />
+
+                        <TextView
+                            android:id="@+id/row4nama"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="4"
+                            android:gravity="center"
+                            android:padding="10sp"
+                            android:text="@string/ro4nama"
+                            android:textColor="@color/black"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/row4asal"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="4"
+                            android:gravity="center"
+                            android:padding="10sp"
+                            android:text="@string/ro4asal"
+                            android:textColor="@color/black"
+                            android:textSize="12sp" />
+
+
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/row5gambar"
+                            android:layout_width="100dp"
+                            android:layout_height="70dp"
+                            app:srcCompat="@drawable/ki_hadjar_dewantara" />
+
+                        <TextView
+                            android:id="@+id/row5nama"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="4"
+                            android:gravity="center"
+                            android:padding="10sp"
+                            android:text="@string/ro5nama"
+                            android:textColor="@color/black"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/row5asal"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="4"
+                            android:gravity="center"
+                            android:padding="10sp"
+                            android:text="@string/ro5asal"
+                            android:textColor="@color/black"
+                            android:textSize="12sp" />
+
+
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/row6gambar"
+                            android:layout_width="100dp"
+                            android:layout_height="70dp"
+                            app:srcCompat="@drawable/mohammad_hatta" />
+
+                        <TextView
+                            android:id="@+id/row6nama"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="4"
+                            android:gravity="center"
+                            android:padding="10sp"
+                            android:text="@string/ro6nama"
+                            android:textColor="@color/black"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/row6asal"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="4"
+                            android:gravity="center"
+                            android:padding="10sp"
+                            android:text="@string/ro6asal"
+                            android:textColor="@color/black"
+                            android:textSize="12sp" />
+
+
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/row7gambar"
+                            android:layout_width="100dp"
+                            android:layout_height="70dp"
+                            app:srcCompat="@drawable/sudirman" />
+
+                        <TextView
+                            android:id="@+id/row7nama"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="4"
+                            android:gravity="center"
+                            android:padding="10sp"
+                            android:text="@string/ro7nama"
+                            android:textColor="@color/black"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/row7asal"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="4"
+                            android:gravity="center"
+                            android:padding="10sp"
+                            android:text="@string/ro7asal"
+                            android:textColor="@color/black"
+                            android:textSize="12sp" />
+
+
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/row8gambar"
+                            android:layout_width="100dp"
+                            android:layout_height="70dp"
+                            app:srcCompat="@drawable/sukarno" />
+
+                        <TextView
+                            android:id="@+id/row8nama"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="4"
+                            android:gravity="center"
+                            android:padding="10sp"
+                            android:text="@string/ro8nama"
+                            android:textColor="@color/black"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/row8asal"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="4"
+                            android:gravity="center"
+                            android:padding="10sp"
+                            android:text="@string/ro8asal"
+                            android:textColor="@color/black"
+                            android:textSize="12sp" />
+
+
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/row9gambar"
+                            android:layout_width="100dp"
+                            android:layout_height="70dp"
+                            app:srcCompat="@drawable/supomo" />
+
+                        <TextView
+                            android:id="@+id/row9nama"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="4"
+                            android:gravity="center"
+                            android:padding="10sp"
+                            android:text="@string/ro9nama"
+                            android:textColor="@color/black"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/row9asal"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="4"
+                            android:gravity="center"
+                            android:padding="10sp"
+                            android:text="@string/ro9asal"
+                            android:textColor="@color/black"
+                            android:textSize="12sp" />
+
+
+                    </TableRow>
+                </TableLayout>
+
+            </LinearLayout>
+        </ScrollView>
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

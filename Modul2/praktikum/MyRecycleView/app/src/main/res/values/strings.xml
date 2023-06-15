@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Aplikasi Baca Komik</string>
+    <string name="komik_name">Judul</string>
+    <string name="description">Deskripsi</string>
+    <string-array name="data_name">
+        <item>Jujutsu Kaisen</item>
+        <item>Boruto</item>
+        <item>Lookism</item>
+        <item>Ranker Who Lives a Second Time</item>
+        <item>Tomb Raider King</item>
+        <item>The Beginning After the End</item>
+        <item>Wind Breaker</item>
+        <item>One Piece</item>
+        <item>Nano Machine</item>
+        <item>Solo Leveling</item>
+    </string-array>
+    <string-array name="data_description">
+        <item>Manga Jujutsu Kaisen yang dibuat oleh komikus bernama Akutami Gege ini bercerita tentang Yuuji adalah seorang jenius di trek dan lapangan. Tapi dia sama sekali tidak tertarik untuk berputar-putar, dia bahagia sebagai seorang clam di Klub Penelitian Ilmu Gaib. Meskipun dia hanya ada di klub untuk iseng, keadaan menjadi serius ketika semangat nyata muncul di sekolah! Hidup akan menjadi sangat aneh di SMA Kota Sugisawa # 3!</item>
+        <item>Manga Boruto yang dibuat oleh komikus bernama Kishimoto Masashi, Kodachi Ukyou ini bercerita tentang Naruto adalah seorang shinobi muda dengan bakat nakal yang tidak bisa diperbaiki. Dia mencapai mimpinya untuk menjadi ninja terhebat di desa dan wajahnya duduk di atas monumen Hokage. Tapi ini bukan ceritanya ... Seorang ninja generasi baru siap naik panggung, dipimpin oleh putra Naruto sendiri, Boruto!</item>
+        <item>Manhwa Lookism yang dibuat oleh komikus bernama Park Tae Joon ini bercerita tentang Park Hyung Suk, kelebihan berat badan dan tidak menarik, diintimidasi dan dilecehkan setiap hari. Tapi keajaiban akan segera terjadi.</item>
+        <item>Manhwa Ranker Who Lives a Second Time yang dibuat oleh komikus bernama Nong Nong ini bercerita tentang Yeon-woo memiliki saudara kembar yang menghilang lima tahun lalu. Suatu hari, arloji saku yang ditinggalkan oleh kakaknya kembali menjadi miliknya. Di dalam, dia menemukan buku harian tersembunyi yang terekam "Saat kamu mendengar ini, kurasa aku sudah mati…." Obelisk, Menara Dewa Matahari, dunia tempat beberapa alam semesta dan dimensi berpotongan. Di dunia ini, saudaranya telah menjadi korban pengkhianatan saat memanjat menara. Setelah mengetahui kebenarannya, Yeon-woo memutuskan untuk memanjat menara bersama dengan buku harian kakaknya. Yeon-woo kemudian melanjutkan untuk melalui cobaan dan perkelahian yang sama seperti yang dilakukan adik laki-lakinya sebagai pemain anonim. Tujuannya? Mengalahkan Menara Obelisk dan membalas dendam untuk saudaranya.</item>
+        <item>Manhwa Tomb Raider King yang dibuat oleh komikus bernama Sanjijiksong ini bercerita tentang Makam Dewa mulai muncul di seluruh dunia. Karena peninggalan di dalam makam ini, banyak yang dapat menggunakan kekuatan legendaris ini untuk diri mereka sendiri, sementara yang lain diperbudak oleh para pengguna ini. Namun, Tomb Raider muncul dengan tujuan merampok relik tersebut. Raja Tomb Raider. "Persetan! Apa bajingan itu sudah menjarah tempat ini juga ?! ” Apa yang Anda miliki adalah milik saya. Apa yang saya miliki pasti milik saya. Ini adalah kisah tentang Tomb Raider yang dihidupkan kembali yang akan melakukan apa pun yang dia bisa untuk mengklaim semua makam dan relik untuk dirinya sendiri!</item>
+        <item>Manhwa The Beginning After the End yang dibuat oleh komikus bernama TurtleMe ini bercerita tentang Raja Grey memiliki kekuatan, kekayaan, dan prestise yang tak tertandingi di dunia yang diatur oleh kemampuan bela diri. Namun, kesendirian tetap ada di belakang mereka yang memiliki kekuatan besar. Di bawah eksterior glamor dari seorang raja yang kuat mengintai cangkang manusia, tanpa tujuan dan kemauan. Bereinkarnasi ke dunia baru yang penuh dengan sihir dan monster, raja memiliki kesempatan kedua untuk menghidupkan kembali hidupnya. Namun, mengoreksi kesalahan di masa lalunya bukanlah satu-satunya tantangannya. Di bawah kedamaian dan kemakmuran dunia baru adalah arus bawah yang mengancam untuk menghancurkan semua yang telah dia kerjakan, mempertanyakan peran dan alasannya untuk dilahirkan kembali.</item>
+        <item>Manhwa Wind Breaker yang dibuat oleh komikus bernama Jo Yong Seok ini bercerita tentang Jay adalah presiden siswa SMA Sunny. Dia tidak hanya seorang siswa yang cerdas tetapi seorang pengendara sepeda yang memiliki teknik tingkat tinggi. Saat Anda mengikuti sepedanya, Anda akan bertemu dengan teman, cinta, dan petualangannya. Bertemu dengan para monster yang juga memiliki kemampuan sepeda yang luar biasa.</item>
+        <item>Manga One Piece yang dibuat oleh komikus bernama Oda Eiichiro ini bercerita tentang Gol D. Roger, seorang pria yang disebut sebagai "Raja Bajak Laut," akan dieksekusi oleh Pemerintah Dunia. Tapi tepat sebelum kematiannya, dia mengkonfirmasi keberadaan harta karun besar, One Piece, yang terletak di suatu tempat di lautan luas yang dikenal sebagai Grand Line. Mengumumkan bahwa One Piece dapat diklaim oleh siapa saja yang cukup layak untuk mencapainya, Raja Bajak Laut dieksekusi dan Zaman Bajak Laut Hebat dimulai. Dua puluh dua tahun kemudian, seorang pemuda bernama Monkey D.Luffy siap untuk memulai petualangannya sendiri, mencari One Piece dan berusaha untuk menjadi Raja Bajak Laut yang baru. Berbekal hanya topi jerami, perahu kecil, dan tubuh elastis, ia memulai perjalanan yang fantastis untuk mengumpulkan awaknya sendiri dan kapal yang layak yang akan membawa mereka melintasi Grand Line untuk mengklaim status terbesar di laut lepas.</item>
+        <item>Manhwa Nano Machine yang dibuat oleh komikus bernama 한중월야, 현절무 ini bercerita tentang Setelah dihina dan hidupnya dalam bahaya, seorang yatim piatu dari Kultus Iblis, Cheon Yeo-Woon, mendapat kunjungan tak terduga dari keturunannya dari masa depan yang memasukkan mesin nano ke dalam tubuh Cheon Yeo-Woon, yang berubah drastis. Kehidupan Cheon Yeo-Woon setelah aktivasi. Kisah perjalanan Cheon Yeo-Woon melewati Kultus Iblis dan naik menjadi seniman bela diri terbaik baru saja dimulai.</item>
+        <item>Manhwa Solo Leveling yang dibuat oleh komikus bernama h-goon ini bercerita tentang Setelah menerima kekuatan dari “Shadow Monarch”, Sung JinWoo memulai perjalanannya menjadi Hunter terkuat dengan mengalahkan berbagai musuh. Sung JinWoo memutuskan untuk mengulang kembali waktu setelah memenangkan peperangan terakhirnya melawan “Antares the Monarch of Destruction and the King of all Dragons.” Dia kembali ke dunia di mana tidak pernah muncul “Gate” dan tidak ada manusia yang menerima kekuatan dari “Ruler”. Meski begitu, Sung JinWoo tetap memiliki kemampuannya sebagai Shadow Monarch yang baru, perjalanan baru Sung JinWoo dimulai sekarang.</item>
+
+    </string-array>
+    <integer-array name="data_photo">
+        <item>@drawable/komik1</item>
+        <item>@drawable/komik2</item>
+        <item>@drawable/komik3</item>
+        <item>@drawable/komik4</item>
+        <item>@drawable/komik5</item>
+        <item>@drawable/komik6</item>
+        <item>@drawable/komik7</item>
+        <item>@drawable/komik8</item>
+        <item>@drawable/komik9</item>
+        <item>@drawable/komik10</item>
+    </integer-array>
+</resources>
